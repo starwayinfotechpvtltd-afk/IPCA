@@ -14,7 +14,11 @@
       "buildNumber": "1.0.5",
       "icon": "./assets/images/IPCA2.png",
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "This app needs access to the camera to capture photos and videos.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to select and upload photos.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs permission to save photos to your library."
+
       }
     },
     "android": {
@@ -51,7 +55,6 @@
     "runtimeVersion": {
       "policy": "appVersion"
     },
-
     "updates": {
       "url": "https://u.expo.dev/cbb2c768-fab8-4ff0-a13e-a06b290dbae8"
     },
